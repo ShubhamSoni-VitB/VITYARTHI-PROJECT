@@ -1,48 +1,43 @@
-PROJECT REPORT
+# Project Statement
 
-Title : Smart Shopping Bill Generator
+## Project Title
+Smart Shopping Bill Generator
 
-Student Name : Shubham Soni
+## Problem Statement
 
-Registration Number : 26BCE11248 
+In a retail shopping situation, customers need a quick way to calculate the total cost of purchased items, apply a
+discount, calculate GST, determine offer eligibility, and select a payment method. Manual calculation can take
+time and may lead to calculation mistakes.
+The Smart Shopping Bill Generator provides a simple console-based solution for these tasks using Python.
 
-Course : Introduction to problem solving
+## Scope
 
-Problem Statement:
+The project covers:
+- Customer and city input
+- Multiple item entry
+- Price and quantity calculation
+- Total quantity calculation
+- Discount calculation
+- GST calculation
+- Shopping-offer eligibility
+- Payment method selection
+- Basic validation and data-type demonstration
+The project is designed as a console application and does not include online payments, a database, or real
+transaction processing.
 
-In a shopping store, calculating the bill manually for different items can take time and may lead to calculation mistakes. A simple Python program can be used to take item details and automatically calculate the total bill, discount, GST, and final amount.
+## Target Users
 
-Objective:
+- Retail shop staff
+- Small shop owners
+- Students learning Python programming
+- Users who want a basic console billing demonstration
 
-The main objective of this project is to create a Python-based shopping bill generator that can handle one or more purchased items and produce a final bill.
+## High-Level Features
 
-Working:
-1. The program asks for the customer's name and city.
-2. It asks for the number of items purchased.
-3. A for loop is used to enter the details of every item.
-4. The price and quantity are multiplied to find the amount of each item.
-5. The total amount and total quantity are calculated.
-6. A discount is applied according to the total purchase amount.
-7. GST of 5% is calculated on the amount after discount.
-8. The final amount is calculated.
-9. The user selects a payment method.
-10. The final bill is displayed.
-
-Concepts Used:
-• Variables and data types
-• Input and output
-• Arithmetic operators
-• Conditional statements
-• for loop
-• Logical operators
-• Membership operator
-• type() function
-• round() function
-
-Expected Result:
-
-The program should generate a clear shopping bill for any positive number of items entered by the user. It should correctly display the total amount, discount, GST, final amount, and payment method.
-
-Conclusion:
-
-This project shows how basic Python concepts can be combined to solve a simple real-life billing problem. It also helps in understanding loops, conditions, calculations, and user input.
+1. Customer information input
+2. Multiple-item billing
+3. Discount and GST calculation
+4. Offer eligibility check
+5. Payment method selection
+6. Input validation
+7. Data-type and membership-operator demonstration
